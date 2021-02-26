@@ -85,14 +85,14 @@ text-align: right;
 @media only screen and (max-width: 600px) {
 body {
     background-color: white;
-    max-width: 75%;
+    max-width: 95%;
     margin: auto;
     padding: 5px;
 }
 
 header {
       margin: auto;
-      padding: 2px;
+      padding: 8px;
       background-color: black;
 }
 
@@ -110,7 +110,7 @@ header {
   
 h3 {
   font-family: Montserrat;
-  font-size: 130%;
+  font-size: 125%;
   color: #c7c7c7;
   text-align: center;
 }
@@ -127,7 +127,7 @@ a {
   font-size: 110%;
   color: #c7c7c7;
   text-align: center;
-  text-decoration: none;
+  text-decoration: bold;
 }
 
 footer {
@@ -160,7 +160,7 @@ footer {
 p {
 background-color: #ffffff;
 font-family: Montserrat;
-font-size: 120%;
+font-size: 105%;
 font-weight: bold;
 color: #606060;
 text-align: right;

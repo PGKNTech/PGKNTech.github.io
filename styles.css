@@ -44,3 +44,12 @@ p {
          font-size: 4vw;
          color: #bdbdbf;
          }
+/* logo design */
+
+.logo, img {
+    height: 102px;
+    width: 102px;
+    background-color: transparent;
+    float: right;
+    margin-top: -90px;
+}

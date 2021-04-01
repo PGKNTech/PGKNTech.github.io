@@ -1,4 +1,6 @@
-/* style */
+/* =================================
+   ========= website style =========
+   ================================= */
 body {
     background-color: #000000;
     max-width: 100%;
@@ -8,9 +10,9 @@ body {
 .title, h1 {
     font-family: 'Montserrat';
     font-size: 10vw;
-    color: #0526cc;
+    color: #0392E7;
     text-align: center;
-    text-shadow: 1px 0px #d40202;
+    text-shadow: 1px 0px #016ca8;
     margin: auto;
     float: 50px;
     width: 85%;
@@ -24,11 +26,29 @@ p {
  width: 100%
  }
  
+.subtitle {
+         font-family: 'Heebo';
+         font-size: 4vw;
+         color: #bdbdbf;
+         }
+
+/* logo design */
+
+.logo, img {
+    height: 102px;
+    width: 102px;
+    background-color: transparent;
+    float: right;
+    margin-top: -90px;
+}
+
+/* =================================
+   ========= site features =========
+   ================================= */
+
+/* buttons */
  .button {
-  background-color: #4CAF50;
   border-radius: 10px;
-  color: white;
-  padding: 2vw 2vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -39,17 +59,39 @@ p {
   width: 10vw;
 }
 
-.subtitle {
-         font-family: 'Heebo';
-         font-size: 4vw;
-         color: #bdbdbf;
-         }
-/* logo design */
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
 
-.logo, img {
-    height: 102px;
-    width: 102px;
-    background-color: transparent;
-    float: right;
-    margin-top: -90px;
+/* specific link buttons */
+
+a [href="https://pgkntech.github.io/googleternative-search/"] {
+    background-color: #0392E7;
+    color: #a8b2ba;
+}
+
+a [href="https://pgkntech.github.io/OnTime/"] {
+    background-color: #016ca8;
+    color: #a8b2ba;
+}
+
+a [href="https://pgkntech.github.io/priv_calc/"] {
+    background-color: #004F8D;
+    color: #a8b2ba;
+}
+
+/* -Highlighting- */
+   
+    /* For Firefox */
+    ::-moz-selection { 
+  color: red;
+  background: yellow;
+}
+
+    /* (does not support IE8 and below) */
+::selection {
+  color: red;
+  background: yellow;
 }

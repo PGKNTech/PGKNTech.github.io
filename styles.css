@@ -47,7 +47,8 @@ p {
    ================================= */
 
 /* buttons */
- .button {
+
+a  {
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
@@ -59,44 +60,47 @@ p {
   width: 10vw;
 }
 
-.button:hover {
+a:hover {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
     text-decoration: none;
+ }
 
 /* specific link buttons */
 
-a [href="https://pgkntech.github.io/googleternative-search/"] {
+.button1 {
     background-color: #0392E7;
-    color: #a8b2ba;
+    color: #ffffff;  
+    width: 15vw;  
 }
 
-a [href="https://pgkntech.github.io/OnTime/"] {
+.button2 {
     background-color: #016ca8;
-    color: #a8b2ba;
+    color: #ffffff;
 }
 
-a [href="https://pgkntech.github.io/priv_calc/"] {
+.button3 {
     background-color: #004F8D;
-    color: #a8b2ba;
+    color: #ffffff;
 }
 
-a [href="https://pgkntech.github.io/PALE/"] {
+.button4 {
     background-color: #dddddd;
-    color: #888888;
+    color: #888888; 
+    width: 15vw;
 }
    
 /* -Highlighting- */
    
     /* For Firefox */
     ::-moz-selection { 
-  color: red;
-  background: yellow;
+  color: #016ca8;
+  background: #0392E7;
 }
 
     /* (does not support IE8 and below) */
 ::selection {
-  color: red;
-  background: yellow;
+  color: #016ca8;
+  background: #0392E7;
 }

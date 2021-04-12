@@ -104,3 +104,16 @@ a:hover {
   color: #016ca8;
   background: #0392E7;
 }
+
+.btn.btn-info
+{
+    font-family: Arial;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #009688;
+    padding: 1% 3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom:12px;
+}

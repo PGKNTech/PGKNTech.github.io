@@ -1,1 +1,128 @@
+/* =================================
+   ========= website style =========
+   ================================= */
+body {
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+    padding: 70px;
+}
 
+@media only screen and (min-width: 340px) and (max-width: 720px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+    padding: 10vw;
+}
+}
+
+.title, h1 {
+    font-family: 'Montserrat';
+    font-size: 10vw;
+    color: #0392E7;
+    text-align: center;
+    text-shadow: 1px 0px #016ca8;
+    margin: auto;
+    float: 50px;
+    width: 85%;
+    }
+    
+p {
+ font-family: 'Roboto Mono';
+ font-size: 3.5vw;
+ color: #e3e3e3;
+ text-align: right;
+ width: 100%
+ }
+ 
+.subtitle {
+         font-family: 'Heebo';
+         font-size: 4vw;
+         color: #bdbdbf;
+         }
+
+/* PGKNT Official LOGO */
+
+.logo, img {
+    height: 102px;
+    width: 102px;
+    background-color: transparent;
+    float: right;
+    margin-top: -17px;
+}
+
+/* =================================
+   ======== site decorations =======
+   ================================= */
+
+/* buttons */
+
+a  {
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Heebo';
+  font-size: 2.2vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 10vw;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+/* general default button style*/
+.btn.btn-info
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #61c4ff;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+}
+
+/* specific link buttons */
+
+.button1 {
+    background-color: #0392E7;
+    color: #ffffff;  
+    width: 15vw;  
+}
+
+.button2 {
+    background-color: #016ca8;
+    color: #ffffff;
+}
+
+.button3 {
+    background-color: #004F8D;
+    color: #ffffff;
+}
+
+.button4 {
+   background-color: #0392E7;
+    color: #ffffff; 
+    width: 15vw;
+}
+   
+/* -Highlighting- */
+   
+    /* For Firefox */
+    ::-moz-selection { 
+  color: #016ca8;
+  background: #0392E7;
+}
+
+    /* selection styles (does not support IE8 below) */
+::selection {
+  color: #016ca8;
+  background: #0392E7;
+}

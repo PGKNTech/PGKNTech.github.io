@@ -56,7 +56,7 @@ p {
    ======== site decorations =======
    ================================= */
 /* NavBar */
-section {
+.navbar section {
        background: #fff;
        }
 ul {

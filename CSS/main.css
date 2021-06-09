@@ -104,6 +104,7 @@ li a {
   background: transparent;
   font-family: arial;
   font-size: 16px;
+  color: #1276ff;
   text-decoration: none;
   transition: text-decoration 1s;
    
@@ -140,6 +141,7 @@ li a {
   background: transparent;
   font-family: arial;
   font-size: 35px;
+  color: #1276ff;
   text-decoration: none;
   transition: text-decoration 1s;
 }

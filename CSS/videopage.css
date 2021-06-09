@@ -28,6 +28,17 @@ body {
     width: 85%;
     }
     
+   h2 {
+    font-family: 'Montserrat';
+    font-size: 5.5vw;
+    color: #0392E7;
+    text-align: left;
+    text-shadow: 1px 0px #016ca8;
+    margin: auto;
+    float: 50px;
+    width: 85%;
+    }
+
 p {
  font-family: 'Roboto Mono';
  font-size: 3.5vw;

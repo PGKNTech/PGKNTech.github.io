@@ -8,7 +8,7 @@ body {
     margin: 60px;
 }
 
-@media only screen and (min-width: 340px) and (max-width: 720px) {
+@media only screen and (min-width: 340px) and (max-width: 1024px) {
   body {
     background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     max-width: 100%;
@@ -24,7 +24,7 @@ body {
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
-    float: 50px;
+    padding: 10px;
     width: 85%;
     }
     
@@ -37,7 +37,7 @@ p {
  width: 100%
  }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 340px) and (max-width: 1024px) {
    .title, h1 {
     font-family: 'Montserrat';
     font-size: 11.5vw;
@@ -45,18 +45,26 @@ p {
     text-align: left;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
-    float: 50px;
+    padding: 30px;
     width: 85%;
     }
     
 p {
  font-family: 'Roboto Mono';
- font-size: 5vw;
+ font-size: 5.5vw;
  font-weight: bold;
  color: #00dfff;
  text-align: right;
  width: 100%
  }
+   
+      .logo, img {
+    height: 102px;
+    width: 102px;
+    background-color: transparent;
+    float: left;
+    margin-top: 40px;
+}
 }
    
  
@@ -72,8 +80,8 @@ p {
     height: 102px;
     width: 102px;
     background-color: transparent;
-    float: right;
-    margin-top: 0px;
+    float: left;
+    margin-top: 10px;
 }
 
 /* =================================
@@ -104,9 +112,10 @@ li a {
   background: transparent;
   font-family: arial;
   font-size: 16px;
+  font-weight: bold;
   color: #1276ff;
   text-decoration: none;
-  transition: text-decoration 1s;
+  transition: text-decoration, text-decoration-color 1s;
    
 }
 
@@ -116,7 +125,7 @@ li:hover {
    background: transparent;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 340px) and (max-width: 1024px) {
    .navbar {
        background: #fff;
        position: fixed;
@@ -137,16 +146,17 @@ li {
 li a {
   display: block;
   margin: 30px;
-  padding: 1px;
+  padding: 2px;
   background: transparent;
   font-family: arial;
-  font-size: 35px;
+  font-size: 3.5vw;
+  font-weight: bold;
   color: #1276ff;
   text-decoration: none;
-  transition: text-decoration 1s;
+  transition: text-decoration, text-decoration-color 1s;
 }
    
- li:hover {
+ li a:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;
@@ -164,7 +174,7 @@ a  {
   font-size: 2.2vw;
   margin: 4px 2px;
   cursor: pointer;
-  width: 10vw;
+  width: 15vw;
 }
 
 a:hover {
@@ -174,7 +184,21 @@ a:hover {
     text-decoration: none;
  }
 
-/* general default button style*/
+@media only screen and (min-width: 340px) and (max-width: 1024px) {
+   a  {
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Heebo';
+  font-size: 7vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+}
+
+/* for social media links (move to platformpage.css)*/
 .btn.btn-info
 {
     font-family: Arial;
@@ -193,7 +217,6 @@ a:hover {
 .button1 {
     background-color: #0392E7;
     color: #ffffff;  
-    width: 15vw;  
 }
 
 .button2 {
@@ -209,7 +232,6 @@ a:hover {
 .button4 {
    background-color: #0392E7;
     color: #ffffff; 
-    width: 15vw;
 }
    
 /*===(For screens larger than 300 pixels)==*/

@@ -24,6 +24,7 @@ body {
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
+    margin-top: 16px;
     padding: 10px;
     width: 85%;
     }
@@ -96,7 +97,7 @@ p {
     width: 102px;
     background-color: transparent;
     float: right;
-    margin-top: 0px;
+    margin-top: 16px;
 }
 
 /* =================================
@@ -126,45 +127,7 @@ li a {
   padding: 0.5px;
   background: transparent;
   font-family: arial;
-  font-size: 2.7vw;
-  color: #1276ff;
-  text-decoration: none;
-  transition: text-decoration 1s;
-   
-}
-
-li:hover {
-   text-decoration: underline;
-   text-decoration-color: #016ca8;
-   background: transparent;
-}
-
-/* NavBar */
-.navbar {
-       background: #fff;
-       position: fixed;
-       width: 100%;
-       margin: -60px -60px;
-       }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  margin: 20px;
-  padding: 0.5px;
-  background: transparent;
-  font-family: arial;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 2.5vw;
   color: #1276ff;
   text-decoration: none;
   transition: text-decoration, text-decoration-color 1s;
@@ -176,6 +139,8 @@ li:hover {
    text-decoration-color: #016ca8;
    background: transparent;
 }
+
+
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
    .navbar {

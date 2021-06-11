@@ -1,0 +1,183 @@
+/* =================================
+   =========== page style ==========
+   ================================= */
+body {
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+    padding: 0px;
+    margin: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+    padding: 10vw;
+    margin: 60px;
+}
+}
+
+.title, h1 {
+    font-family: 'Montserrat';
+    font-size: 7.2vw;
+    color: #0392E7;
+    text-align: center;
+    text-shadow: 1px 0px #016ca8;
+    margin: auto;
+    margin-top: 16px;
+    padding: 10px;
+    width: 85%;
+    }
+    
+p {
+ font-family: 'Roboto Mono';
+ font-size: 4.5vw;
+ font-weight: bold;
+ color: #00dfff;
+ text-align: right;
+ width: 100%
+ }
+
+@media only screen and (max-width: 700px) {
+   .title, h1 {
+    font-family: 'Montserrat';
+    font-size: 9.5vw;
+    color: #0392E7;
+    text-align: left;
+    text-shadow: 1px 0px #016ca8;
+    margin: auto;
+    padding: 30px;
+    width: 85%;
+    }
+    
+   h2 {
+    font-family: 'Montserrat';
+    font-size: 6.6vw;
+    color: #016ca8;
+    text-align: left;
+    text-shadow: 1px 0px #016ca8;
+    margin: auto;
+    float: 50px;
+    width: 85%;
+    }
+      
+p {
+ font-family: 'Roboto Mono';
+ font-size: 4.5vw;
+ font-weight: bold;
+ color: #00dfff;
+ text-align: right;
+ width: 100%
+}
+}
+
+/* =================================
+   ======== site decorations =======
+   ================================= */
+/* NavBar */
+.navbar {
+       background: #fff;
+       position: fixed;
+       width: 100%;
+       margin: -60px -60px;
+       }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  margin: 20px;
+  padding: 1px;
+  background: transparent;
+  font-family: arial;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #1276ff;
+  text-decoration: none;
+  transition: text-decoration, text-decoration-color 1s;
+   
+}
+
+li:hover {
+   text-decoration: underline;
+   text-decoration-color: #016ca8;
+   background: transparent;
+}
+
+@media only screen and (max-width: 700px) {
+   .navbar {
+       background: #fff;
+       position: fixed;
+       width: 100%;
+       margin: -160px -160px;
+       }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  margin: auto;
+  padding: 12px;
+  background: transparent;
+  font-family: arial;
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #1276ff;
+  text-decoration: none;
+  text-align: center;
+  transition: text-decoration, text-decoration-color 1s;
+}
+   
+ li a:hover {
+   text-decoration: underline;
+   text-decoration-color: #016ca8;
+   background: transparent;
+}  
+}
+
+/* for social media links */
+.btn.btn-info
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #61c4ff;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+}
+
+/*===(For screens larger than 300 pixels)==*/
+@media only screen and (min-width: 300px) {
+/* -Highlighting- */
+   
+    /* For Firefox */
+    ::-moz-selection { 
+  color: #016ca8;
+  background: #0392E7;
+}
+
+    /* selection styles (does not support IE8 below) */
+::selection {
+  color: #016ca8;
+  background: #0392E7;
+}
+}

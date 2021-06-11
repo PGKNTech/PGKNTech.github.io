@@ -26,7 +26,7 @@ body {
     margin: auto;
     margin-top: 16px;
     padding: 10px;
-    width: 85%;
+    width: 99%;
     }
     
 p {
@@ -41,29 +41,18 @@ p {
 @media only screen and (max-width: 700px) {
    .title, h1 {
     font-family: 'Montserrat';
-    font-size: 9.5vw;
+    font-size: 8.5vw;
     color: #0392E7;
     text-align: left;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
     padding: 30px;
-    width: 85%;
+    width: 100%;
     }
-    
-   h2 {
-    font-family: 'Montserrat';
-    font-size: 6.6vw;
-    color: #016ca8;
-    text-align: left;
-    text-shadow: 1px 0px #016ca8;
-    margin: auto;
-    float: 50px;
-    width: 85%;
-    }
-      
+     
 p {
  font-family: 'Roboto Mono';
- font-size: 4.5vw;
+ font-size: 4vw;
  font-weight: bold;
  color: #00dfff;
  text-align: right;
@@ -152,6 +141,10 @@ li a {
 }
 
 /* for social media links */
+.links-container {
+   line spacing: 2.1;
+}
+
 .btn.btn-info
 {
     font-family: Arial;

@@ -8,7 +8,7 @@ body {
     margin: 60px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   body {
     background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     max-width: 100%;
@@ -49,7 +49,7 @@ p {
  width: 100%
  }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
    .title, h1 {
     font-family: 'Montserrat';
     font-size: 9.5vw;
@@ -90,16 +90,6 @@ p {
 }
 }
 
-/* PGKNT Official LOGO */
-
-.logo, img {
-    height: 102px;
-    width: 102px;
-    background-color: transparent;
-    float: right;
-    margin-top: 16px;
-}
-
 /* =================================
    ======== site decorations =======
    ================================= */
@@ -124,10 +114,11 @@ li {
 li a {
   display: block;
   margin: 20px;
-  padding: 0.5px;
+  padding: 1px;
   background: transparent;
   font-family: arial;
   font-size: 2.5vw;
+  font-weight: bold;
   color: #1276ff;
   text-decoration: none;
   transition: text-decoration, text-decoration-color 1s;
@@ -140,9 +131,7 @@ li:hover {
    background: transparent;
 }
 
-
-
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
    .navbar {
        background: #fff;
        position: fixed;

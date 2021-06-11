@@ -155,7 +155,7 @@ li a {
 .btn.btn-info
 {
     font-family: Arial;
-    font-size: 25px;
+    font-size: 3.5vw;
     text-decoration: none;
     background-color: #61c4ff;
     padding: 1% 0.3%;
@@ -163,6 +163,22 @@ li a {
     margin: 4px;
     border-radius: 19px;
     margin-bottom: 12px;
+    width: 65%;
+}
+
+@media only screen and (max-width: 700px)
+   .btn.btn-info
+{
+    font-family: Arial;
+    font-size: 4.2vw;
+    text-decoration: none;
+    background-color: #61c4ff;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+    width: 100%
 }
 
 /*===(For screens larger than 300 pixels)==*/

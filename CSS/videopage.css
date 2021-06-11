@@ -79,14 +79,6 @@ p {
  color: #00dfff;
  text-align: right;
  width: 100%
- }
-   
-   .logo, img {
-    height: 102px;
-    width: 102px;
-    background-color: transparent;
-    float: right;
-    margin-top: 40px;
 }
 }
 

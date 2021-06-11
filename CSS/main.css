@@ -168,7 +168,7 @@ li a {
 
 /* buttons */
 
-a  {
+.button1, .button2, .button3, .button4  {
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
@@ -188,51 +188,62 @@ a:hover {
  }
 
 @media only screen and (max-width: 700px) {
-   a  {
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Heebo';
-  font-size: 7vw;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 100%;
-}
-}
 
-/* for social media links (move to platformpage.css)*/
-.btn.btn-info
-{
-    font-family: Arial;
-    font-size: 25px;
-    text-decoration: none;
-    background-color: #61c4ff;
-    padding: 1% 0.3%;
-    color: white;
-    margin: 4px;
-    border-radius: 19px;
-    margin-bottom: 12px;
-}
 
 /* specific link buttons */
 
 .button1 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Heebo';
+    font-size: 7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
     background-color: #0392E7;
     color: #ffffff;  
 }
 
 .button2 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Heebo';
+    font-size: 7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
     background-color: #016ca8;
     color: #ffffff;
 }
 
 .button3 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Heebo';
+    font-size: 7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
     background-color: #004F8D;
     color: #ffffff;
 }
 
 .button4 {
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-family: 'Heebo';
+   font-size: 7vw;
+   margin: 4px 2px;
+   cursor: pointer;
+   width: 100%;
    background-color: #0392E7;
     color: #ffffff; 
 }

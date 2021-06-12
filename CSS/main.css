@@ -169,16 +169,18 @@ li a {
 
 /* buttons */
 
-.button1, .button2, .button3, .button4  {
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Heebo';
-  font-size: 2.2vw;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 15vw;
+.button1, .button2, .button3, .button4 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Heebo';
+    font-size: 2.2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 15vw;
+    color: #fff;
+    background: #0392e7;
 }
 
 a:hover {

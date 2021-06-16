@@ -31,9 +31,10 @@ body {
     
 p {
  font-family: 'Roboto Mono';
- font-size: 3.5vw;
+ font-size: 3vw;
  font-weight: bold;
  color: #00dfff;
+ background-color: #333333;
  text-align: right;
  width: 100%
  }
@@ -52,9 +53,10 @@ p {
     
 p {
  font-family: 'Roboto Mono';
- font-size: 5.5vw;
+ font-size: 4.5vw;
  font-weight: bold;
  color: #00dfff;
+ background-color: #333333;
  text-align: right;
  width: 100%
  }

@@ -19,30 +19,31 @@ body {
 
 .title, h1 {
     font-family: 'Montserrat';
-    font-size: 10vw;
+    font-size: 6vw;
     color: #0392E7;
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    width: 95%%;
+    width: 95%;
     }
     
-p {
+.desc, p {
  font-family: 'Roboto Mono';
- font-size: 3vw;
+ font-size: 2vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
- text-align: right;
- width: 100%
+ color: #39a1e0;
+ background-color: #ffffff;
+ text-align: left;
+ width: 100%;
+ position: fixed;
  }
 
 @media only screen and (max-width: 1024px) {
    .title, h1 {
     font-family: 'Montserrat';
-    font-size: 11.5vw;
+    font-size: 7vw;
     color: #0392E7;
     text-align: center;
     text-shadow: 1px 0px #016ca8;
@@ -51,14 +52,15 @@ p {
     width: 95%;
     }
     
-p {
+.desc p {
  font-family: 'Roboto Mono';
- font-size: 4.5vw;
+ font-size: 3vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
- text-align: right;
- width: 100%
+ color: #39a1e0;
+ background-color: #ffffff;
+ text-align: left;
+ width: 100%;
+ position: fixed;
  }
 }
 

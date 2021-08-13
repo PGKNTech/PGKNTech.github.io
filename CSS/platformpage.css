@@ -43,7 +43,7 @@ body {
 @media only screen and (max-width: 1024px) {
    .title, h1 {
     font-family: 'Montserrat';
-    font-size: 7.5vw;
+    font-size: 7vw;
     color: #0392E7;
     text-align: center;
     text-shadow: 1px 0px #016ca8;

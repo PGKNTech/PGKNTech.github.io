@@ -40,6 +40,15 @@ body {
  position: fixed;
  }
 
+.channel {
+ font-family: 'Roboto Mono';
+ font-size: 3vw;
+ font-weight: bold;
+ color: #39a1e0;
+ background: transparent;
+ }
+}
+
 @media only screen and (max-width: 1024px) {
    .title, h1 {
     font-family: 'Montserrat';
@@ -61,6 +70,14 @@ body {
  text-align: left;
  width: 100%;
  position: fixed;
+ }
+   
+.channel {
+ font-family: 'Roboto Mono';
+ font-size: 3vw;
+ font-weight: bold;
+ color: #39a1e0;
+ background: transparent;
  }
 }
 

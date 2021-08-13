@@ -26,17 +26,18 @@ body {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    width: 95%%;
+    width: 95%;
     }
     
-p {
+.desc, p {
  font-family: 'Roboto Mono';
  font-size: 3vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
- text-align: right;
- width: 100%
+ color: #39a1e0;
+ background-color: #ffffff;
+ text-align: left;
+ width: 100%;
+ position: fixed;
  }
 
 @media only screen and (max-width: 1024px) {
@@ -49,16 +50,17 @@ p {
     margin: auto;
     padding: 30px;
     width: 95%;
-    }
+   }
     
-p {
+.desc, p {
  font-family: 'Roboto Mono';
- font-size: 4.5vw;
+ font-size: 3.9vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
- text-align: right;
- width: 100%
+ color: #39a1e0;
+ background-color: #ffffff;
+ text-align: left;
+ width: 100%;
+ position: fixed;
  }
 }
 

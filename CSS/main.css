@@ -33,11 +33,10 @@ p {
  font-family: 'Roboto Mono';
  font-size: 3.5vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
+ color: #39a1e0;
+ background-color: #fff;
  border-radius: 16px;
  text-align: right;
- width: 100%
  }
 
 @media only screen and (max-width: 1024px) {
@@ -56,11 +55,10 @@ p {
  font-family: 'Roboto Mono';
  font-size: 5.5vw;
  font-weight: bold;
- color: #00dfff;
- background-color: #333333;
+ color: #39a1e0;
+ background-color: #fff;
  border-radius: 20px;
  text-align: right;
- width: 100%
  }
    
       .logo, img {
@@ -77,18 +75,19 @@ p {
 .subtitle {
          font-family: 'Heebo';
          font-size: 4vw;
-         color: #bdbdbf;
+         color: #ffffff;
+         background-color: #0392e7;
          }
 
 @media only screen and (max-width: 1024px) {
 .subtitle {
-         font-family: 'Heebo'
-         font-size: 6vw;
-         color: #bdbdbf;
+         font-family: 'Heebo';
+         font-size: 4vw;
+         color: #ffffff;
+         background-color: #0392e7;
 }
-}
-
-/* PGKNT Official LOGO */
+ 
+ /* PGKNT Official LOGO */
 
 .logo, img {
     height: 102px;
@@ -99,6 +98,9 @@ p {
     padding: 10px;
     margin-top: 20px;
 }
+}
+
+
 
 /* =================================
    ======== site decorations =======

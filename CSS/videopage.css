@@ -35,14 +35,14 @@ body {
  font-weight: bold;
  color: #39a1e0;
  background-color: #ffffff;
- text-align: left;
+ text-align: center;
  width: 100%;
- position: fixed;
+ padding: 3x, 3px;
  }
 
 .channel {
  font-family: 'Roboto Mono';
- font-size: 3vw;
+ font-size: 2vw;
  font-weight: bold;
  color: #39a1e0;
  background: transparent;
@@ -69,7 +69,7 @@ body {
  background-color: #ffffff;
  text-align: left;
  width: 100%;
- position: fixed;
+ padding: 3x, 3px;
  }
    
 .channel {

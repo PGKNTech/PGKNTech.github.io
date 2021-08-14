@@ -21,13 +21,13 @@ body {
     font-family: 'Montserrat';
     font-size: 6vw;
     color: #0392E7;
+    background-color: #ffffff;
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    width: 95%%;
-    }
+}
     
 .desc {
    background-color: #ffffff;
@@ -50,11 +50,11 @@ p {
     font-family: 'Montserrat';
     font-size: 7vw;
     color: #0392E7;
+    background-color: #ffffff;
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
     padding: 30px;
-    width: 95%;
    }
     
 .desc {
@@ -80,7 +80,6 @@ p {
     margin-bottom: 3px;
     font-size:3px;
     line-height: 3px;
-}
 }
 
 /* =================================

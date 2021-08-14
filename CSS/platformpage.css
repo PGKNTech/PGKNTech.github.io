@@ -23,12 +23,12 @@ body {
     font-family: 'Montserrat';
     font-size: 6vw;
     color: #0392E7;
+    background-color: #ffffff;
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    width: 95%;
     }
     
 .desc {

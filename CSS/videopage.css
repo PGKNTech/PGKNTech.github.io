@@ -29,12 +29,17 @@ body {
     width: 95%;
     }
     
-.desc, p {
+.desc {
+   background-color: #ffffff;
+   width: 99.5%;
+   border-radius: 10px;
+}
+
+p {
  font-family: 'Roboto Mono';
  font-size: 2vw;
  font-weight: bold;
  color: #39a1e0;
- background-color: #ffffff;
  text-align: center;
  width: 100%;
  padding: 3x, 3px;
@@ -59,19 +64,24 @@ body {
     margin: auto;
     padding: 30px;
     width: 95%;
-    }
+   }
     
-.desc p {
+.desc {
+   background-color: #ffffff;
+   width: 99.5%;
+   border-radius: 10px;
+}
+   
+   p {
  font-family: 'Roboto Mono';
  font-size: 3vw;
  font-weight: bold;
  color: #39a1e0;
- background-color: #ffffff;
  text-align: left;
- width: 100%;
+ width: 98%;
  padding: 3x, 3px;
  }
-   
+
 .channel {
  font-family: 'Roboto Mono';
  font-size: 3vw;

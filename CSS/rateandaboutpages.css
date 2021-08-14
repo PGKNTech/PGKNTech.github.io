@@ -29,23 +29,21 @@ body {
     width: 95%%;
     }
     
-.desc, p {
+.desc {
+   background-color: #ffffff;
+   width: 99.5%;
+   border-radius: 10px;
+}
+
+p {
  font-family: 'Roboto Mono';
  font-size: 2vw;
  font-weight: bold;
  color: #39a1e0;
- background-color: #ffffff;
- text-align: left;
+ text-align: center;
  width: 100%;
- position: fixed;
+ padding: 3x, 3px;
  }
-
-br {
-    display: block;
-    margin-bottom: 3px;
-    font-size:3px;
-    line-height: 3px;
-}
 
 @media only screen and (max-width: 1024px) {
    .title, h1 {
@@ -57,18 +55,25 @@ br {
     margin: auto;
     padding: 30px;
     width: 95%;
-    }
+   }
     
-.desc, p {
+.desc {
+   background-color: #ffffff;
+   width: 99.5%;
+   border-radius: 10px;
+}
+   
+   p {
  font-family: 'Roboto Mono';
  font-size: 3vw;
  font-weight: bold;
  color: #39a1e0;
- background-color: #ffffff;
  text-align: left;
- width: 100%;
- position: fixed;
+ width: 98%;
+ padding: 3x, 3px;
  }
+}
+
    
    br {
     display: block;

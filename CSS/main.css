@@ -77,14 +77,18 @@ p {
          font-size: 4vw;
          color: #ffffff;
          background-color: #0392e7;
+         width: 50%;
+         border-radius: 10px;
          }
 
 @media only screen and (max-width: 1024px) {
 .subtitle {
          font-family: 'Heebo';
-         font-size: 4vw;
+         font-size: 3.8vw;
          color: #ffffff;
          background-color: #0392e7;
+         width: 50%;
+         border-radius: 10px;
 }
  
  /* PGKNT Official LOGO */

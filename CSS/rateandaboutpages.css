@@ -28,7 +28,16 @@ body {
     margin-top: 20px;
     padding: 10px;
 }
-    
+   
+h2, h3 {
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+    color: #0392E7;
+    background-color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 0px #016ca8;
+}
+
 .desc {
    background-color: #ffffff;
    width: 99.5%;
@@ -72,6 +81,15 @@ p {
  width: 98%;
  padding: 3x, 3px;
  }
+   
+   h2, h3 {
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    color: #0392E7;
+    background-color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 0px #016ca8;
+}
 }
 
    

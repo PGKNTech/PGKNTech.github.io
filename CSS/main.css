@@ -1,4 +1,4 @@
- /* =================================
+       /* =================================
    ========= website style =========
    ================================= */
 body {
@@ -24,7 +24,7 @@ body {
     text-align: center;
     text-shadow: 1px 0px #016ca8;
     margin: auto;
-    margin-top: 20px;
+    margin-top: -20px;
     padding: 10px;
     width: 95%%;
     }
@@ -50,6 +50,7 @@ p {
     padding: 30px;
     width: 95%;
     }
+    }
     
 p {
  font-family: 'Roboto Mono';
@@ -61,13 +62,17 @@ p {
  text-align: right;
  }
    
+    /* PGKNT Official LOGO for large screens */
       .logo, img {
     height: 102px;
     width: 102px;
     background-color: transparent;
     float: left;
-    margin: auto;
+    margin-top: 60px;
 }
+    
+a [href="https://pgkntech.github.io"]{
+text-decoration: none;
 }
    
  
@@ -88,14 +93,15 @@ p {
          border-radius: 10px;
 }
  
- /* PGKNT Official LOGO */
+ /* PGKNT Official LOGO for mobile */
 
 .logo, img {
     height: 102px;
     width: 102px;
     background-color: transparent;
     float: left;
-    margin: auto;
+    margin-top: -100px;
+    margin-left: -80px;
 }
 }
 

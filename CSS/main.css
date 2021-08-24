@@ -50,7 +50,6 @@ p {
     padding: 30px;
     width: 95%;
     }
-    }
     
 p {
  font-family: 'Roboto Mono';
@@ -61,7 +60,7 @@ p {
  border-radius: 20px;
  text-align: right;
  }
-   
+}   
     /* PGKNT Official LOGO for large screens */
       .logo, img {
     height: 102px;

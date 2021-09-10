@@ -1,8 +1,10 @@
 //greetings Prompt
-function myFunction() {
-  var person = prompt("What should we call you?", "Name");
+document.getElementById("user").addEventListener("click", myGreeting);
+
+function myGreeting() {
+alert("Hello There! Click Ok to continue")
+var person = prompt("What should we call you?", "Name");
   if (person != null) {
     document.getElementById("user").innerHTML =
-    "Hello " + person + "! Welcome to PGKNT! ";
+    "Greetings " + person + "! Welcome to PGKNT! ";
   }
-}

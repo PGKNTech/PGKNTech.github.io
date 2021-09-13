@@ -82,6 +82,7 @@ p {
  padding: 3x, 3px;
  }
 
+/*For Videos Page*/
 .channel {
  font-family: 'Roboto Mono';
  font-size: 3vw;
@@ -89,6 +90,41 @@ p {
  color: #39a1e0;
  background: transparent;
  }
+}
+
+/*About Page button*/
+ .button1 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Heebo';
+    font-size: 7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #0392E7;
+    color: #ffffff;  
+}
+}
+
+/*For Privacy Policy*/
+   h2, h3 {
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    color: #0392E7;
+    background-color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 0px #016ca8;
+}
+}
+
+   
+br {
+    display: block;
+    margin-bottom: 3px;
+    font-size:3px;
+    line-height: 3px;
 }
 
 /* =================================

@@ -121,7 +121,7 @@ p {
     margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px) {
 .btn.btn-info
 {
     text-decoration: none;
@@ -157,6 +157,31 @@ br {
     line-height: 3px;
 }
 
+/*For Rate Page*/
+.form container {
+   width: 100%;
+   height: auto;
+   background: transparent;
+}
+
+.form {
+   width=620;
+   height=720; 
+   frameborder=0; 
+   marginheight=0; 
+   marginwidth=0;
+}
+
+@media only screen and (max-width: 1024px) {
+   .form {
+    width: 95%;
+    height: 1020px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+   }
+   }
 /* =================================
    ======== site decorations =======
    ================================= */

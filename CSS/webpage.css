@@ -106,6 +106,36 @@ p {
     background-color: #0392E7;
     color: #ffffff;  
 }
+
+/* for Platforms page*/
+.btn.btn-info
+{
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #61c4ff;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1024px)
+.btn.btn-info
+{
+    text-decoration: none;
+    background-color: #61c4ff;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
 }
 
 /*For Privacy Policy*/

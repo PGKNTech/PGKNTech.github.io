@@ -167,27 +167,26 @@ br {
 }
 
 .form {
-   width:620;
-   height:720; 
-   frameborder:0; 
-   marginheight:0; 
-   marginwidth:0;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
+    width: 620px;
+    height: 720px;
+    margin-left: 25%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 @media only screen and (max-width: 1024px) {
    .form {
     width: 95%;
     height: 1020px;
+    margin-left: 25%;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
    }
-   }
+}
 /* =================================
    ======== site decorations =======
    ================================= */

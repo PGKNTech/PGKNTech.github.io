@@ -23,7 +23,7 @@ body {
     font-size: 10vw;
     color: #016ca8;
     text-align: center;
-    text-shadow: 1px 0px #0392e7;
+    text-shadow: 2px 0px #0392e7;
     margin: auto;
     margin-top: -20px;
     padding: 10px;
@@ -44,12 +44,12 @@ font-family: 'Roboto Mono';
 
 @media only screen and (max-width: 1024px) {
    .title, h1 {
-    background-color: #e6e0e0;
+    background-color: transparent;
     font-family: 'Montserrat';
     font-size: 11.5vw;
-    color: #0392E7;
+    color: #016ca8;
     text-align: center;
-    text-shadow: 1px 0px #016ca8;
+    text-shadow: 3px 1px #0392e7;
     margin: auto;
     padding: 30px;
     width: 95%;

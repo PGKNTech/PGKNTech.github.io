@@ -205,7 +205,10 @@ li a {
     cursor: pointer;
     width: 15vw;
     color: #fff;
-    background: #0392e7;
+    border-width: 50px;
+    border: #016ca8;
+    border-style: solid;
+    background: #0382e7;
 }
 
 a:hover {

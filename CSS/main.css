@@ -19,7 +19,7 @@ body {
 
 .title, h1 {
     background-color: transparent;
-    font-family: 'Montserrat';
+    font-family: 'Quicksand';
     font-size: 10vw;
     color: #016ca8;
     text-align: center;
@@ -31,7 +31,7 @@ body {
     }
     
 p {
-font-family: 'Roboto Mono';
+font-family: 'Nunito';
     font-size: 3.5vw;
     font-weight: bold;
     color: #39a1e0;
@@ -45,7 +45,7 @@ font-family: 'Roboto Mono';
 @media only screen and (max-width: 1024px) {
    .title, h1 {
     background-color: transparent;
-    font-family: 'Montserrat';
+    font-family: 'Quicksand';
     font-size: 11.5vw;
     color: #016ca8;
     text-align: center;
@@ -56,7 +56,7 @@ font-family: 'Roboto Mono';
     }
     
 p {
- font-family: 'Roboto Mono';
+ font-family: 'Nunito';
  font-size: 5.5vw;
  font-weight: bold;
  color: #39a1e0;
@@ -82,18 +82,18 @@ text-decoration: none;
    
  
 .subtitle {
-         font-family: 'Heebo';
+         font-family: 'Nunito';
          font-size: 4vw;
-         color: #414141;
+         color: #016ca8;
          width: 50%;
          border-radius: 10px;
          }
 
 @media only screen and (max-width: 1024px) {
 .subtitle {
-         font-family: 'Heebo';
+         font-family: 'Nunito';
          font-size: 3.8vw;
-         color: #ffffff;
+         color: #016ca8;
          width: 50%;
          border-radius: 10px;
 }
@@ -138,7 +138,7 @@ li a {
   margin: 20px;
   padding: 1px;
   background: transparent;
-  font-family: arial;
+  font-family: 'Quicksand';
   font-size: 2.5vw;
   font-weight: bold;
   color: #1276ff;
@@ -176,7 +176,7 @@ li a {
   margin: auto;
   padding: 12px;
   background: transparent;
-  font-family: arial;
+  font-family: 'Quicksand';
   font-size: 3.5vw;
   font-weight: bold;
   color: #1276ff;
@@ -199,7 +199,7 @@ li a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Heebo';
+    font-family: 'Nunito';
     font-size: 2.2vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -225,7 +225,7 @@ a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Heebo';
+    font-family: 'Nunito';
     font-size: 7vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -239,7 +239,7 @@ a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Heebo';
+    font-family: 'Nunito';
     font-size: 7vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -253,7 +253,7 @@ a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Heebo';
+    font-family: 'Nunito';
     font-size: 7vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -267,7 +267,7 @@ a:hover {
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-family: 'Heebo';
+   font-family: 'Nunito';
    font-size: 7vw;
    margin: 4px 2px;
    cursor: pointer;

@@ -18,7 +18,7 @@ body {
 }
 
 .title, h1 {
-    font-family: 'Montserrat';
+    font-family: 'Quicksand';
     font-size: 6vw;
     color: #0392E7;
     background-color: #ffffff;
@@ -37,7 +37,7 @@ body {
 }
 
 p {
-    font-family: 'Roboto Mono';
+    font-family: 'Nunito';
     font-size: 2vw;
     font-weight: bold;
     color: #39a1e0;
@@ -49,7 +49,7 @@ p {
 
 @media only screen and (max-width: 1024px) {
    .title, h1 {
-    font-family: 'Montserrat';
+    font-family: 'Quicksand';
     font-size: 7vw;
     color: #0392E7;
     text-align: center;
@@ -68,7 +68,7 @@ p {
 }
    
    p {
-    font-family: 'Roboto Mono';
+    font-family: 'Nunito';
     font-size: 3vw;
     font-weight: bold;
     color: #39a1e0;
@@ -79,7 +79,7 @@ p {
 
 /*For Videos Page*/
       .channel {
- font-family: 'Roboto Mono';
+ font-family: 'Nunito';
  font-size: 2vw;
  font-weight: bold;
  color: #39a1e0;
@@ -98,7 +98,7 @@ p {
 
 @media only screen and (max-width: 1024px) {
 .channel {
- font-family: 'Roboto Mono';
+ font-family: 'Nunito';
  font-size: 3vw;
  font-weight: bold;
  color: #39a1e0;
@@ -117,7 +117,7 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Heebo';
+    font-family: 'Nunito';
     font-size: 7vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -129,7 +129,7 @@ p {
 /* for Platforms page*/
 .btn.btn-info
 {
-    font-family: Arial;
+    font-family: 'Nunito';
     font-size: 25px;
     text-decoration: none;
     background-color: #61c4ff;
@@ -149,25 +149,13 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: Arial;
+    font-family: 'Nunito';
     font-size: 7vw;
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
 }
 }
-
-/*For Privacy Policy*/
-   h2, h3 {
-    font-family: 'Montserrat';
-    font-size: 5vw;
-    color: #0392E7;
-    background-color: #ffffff;
-    text-align: center;
-    text-shadow: 1px 0px #016ca8;
-}
-}
-
    
 br {
     display: block;
@@ -231,7 +219,7 @@ li a {
   margin: 20px;
   padding: 1px;
   background: transparent;
-  font-family: arial;
+  font-family: 'Quicksand';
   font-size: 2.5vw;
   font-weight: bold;
   color: #1276ff;
@@ -268,7 +256,7 @@ li a {
   margin: auto;
   padding: 12px;
   background: transparent;
-  font-family: arial;
+  font-family: 'Quicksand';
   font-size: 3.5vw;
   font-weight: bold;
   color: #1276ff;

@@ -118,7 +118,7 @@ p {
 }
 
 /*About Page button*/
- .priv-button
+ .priv-button {
     border-radius: 10px;
     text-align: center;
     text-decoration: none;

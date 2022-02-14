@@ -133,7 +133,7 @@ li {
   float: right;
 }
 
-li a .lenk{
+li a {
   display: block;
   margin: 20px;
   padding: 1px;
@@ -147,7 +147,7 @@ li a .lenk{
    
 }
 
-li:hover, .lenk:hover {
+li:hover, .lenk a:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;
@@ -185,7 +185,7 @@ li a .lenk {
   transition: text-decoration, text-decoration-color 1s;
 }
    
- li:hover, .lenk:hover {
+ li:hover, .lenk a:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;
@@ -211,7 +211,7 @@ li a .lenk {
     background: #0382e7;
 }
 
-.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+.button1 a:hover, .button2 a:hover, .button3 a:hover, .button4 a:hover {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
@@ -280,7 +280,7 @@ li a .lenk {
 }
        
        
-.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+.button1 a:hover, .button2 a:hover, .button3 a:hover, .button4 a:hover {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;

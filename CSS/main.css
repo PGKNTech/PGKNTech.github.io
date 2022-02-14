@@ -147,7 +147,7 @@ li a .lenk{
    
 }
 
-li:hover .lenk:hover {
+li:hover, .lenk:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;
@@ -185,7 +185,7 @@ li a .lenk {
   transition: text-decoration, text-decoration-color 1s;
 }
    
- li a:hover .lenk:hover {
+ li:hover, .lenk:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;

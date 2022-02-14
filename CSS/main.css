@@ -117,7 +117,7 @@ text-decoration: none;
    ================================= */
 /* NavBar */
 .navbar {
-       background: #fff;
+       background: #1276ff;
        position: fixed;
        width: 100%;
        margin: -60px -60px;
@@ -141,7 +141,7 @@ li a {
   font-family: 'Quicksand';
   font-size: 2.5vw;
   font-weight: bold;
-  color: #1276ff;
+  color: #f5f4dc;
   text-decoration: none;
   transition: text-decoration, text-decoration-color 1s;
    
@@ -155,7 +155,7 @@ li:hover {
 
 @media only screen and (max-width: 1024px) {
    .navbar {
-       background: #fff;
+       background: #1276ff;
        position: fixed;
        width: 100%;
        margin: -160px -160px;
@@ -179,7 +179,7 @@ li a {
   font-family: 'Quicksand';
   font-size: 3.5vw;
   font-weight: bold;
-  color: #1276ff;
+  color: #f5f4dc;
   text-decoration: none;
   text-align: center;
   transition: text-decoration, text-decoration-color 1s;

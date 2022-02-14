@@ -211,7 +211,7 @@ li a .lenk {
     background: #0382e7;
 }
 
-a:hover {
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
@@ -278,6 +278,14 @@ a:hover {
    background-color: #0392E7;
     color: #ffffff; 
 }
+       
+       
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+ }
 }
    
 /*===(For screens larger than 300 pixels)==*/

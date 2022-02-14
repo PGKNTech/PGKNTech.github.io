@@ -65,6 +65,12 @@ p {
     width: 100%;
     border-radius: 0px;
     padding: 2px;
+    font-family: 'Nunito';
+    font-size: 3vw;
+    font-weight: bold;
+    color: #39a1e0;
+    text-align: justify;
+    width: 95%;
 }
    
    p {
@@ -112,7 +118,7 @@ p {
 }
 
 /*About Page button*/
- .button1 {
+ .priv-button
     border-radius: 10px;
     text-align: center;
     text-decoration: none;

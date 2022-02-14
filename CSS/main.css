@@ -133,7 +133,7 @@ li {
   float: right;
 }
 
-li a {
+li a .lenk{
   display: block;
   margin: 20px;
   padding: 1px;
@@ -147,7 +147,7 @@ li a {
    
 }
 
-li:hover {
+li:hover .lenk:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;
@@ -171,7 +171,7 @@ li {
   float: right;
 }
 
-li a {
+li a .lenk {
   display: block;
   margin: auto;
   padding: 12px;
@@ -185,7 +185,7 @@ li a {
   transition: text-decoration, text-decoration-color 1s;
 }
    
- li a:hover {
+ li a:hover .lenk:hover {
    text-decoration: underline;
    text-decoration-color: #016ca8;
    background: transparent;

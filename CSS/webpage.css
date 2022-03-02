@@ -133,12 +133,12 @@ p {
 }
 
 /* for Platforms page*/
-.btn.btn-info
+.b1
 {
     font-family: 'Nunito';
     font-size: 25px;
     text-decoration: none;
-    background-color: #61c4ff;
+    background-color: #00a0ff;
     padding: 1% 0.3%;
     color: white;
     margin: 4px;
@@ -147,11 +147,53 @@ p {
     width: 50%;
 }
 
+.b2
+{
+    font-family: 'Nunito';
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #0392e7;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+    width: 50%;
+}
+
+.b3
+{
+    font-family: 'Nunito';
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #016fb1;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+    width: 50%;
+}
+
+.b4
+{
+    font-family: 'Nunito';
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #005689;
+    padding: 1% 0.3%;
+    color: white;
+    margin: 4px;
+    border-radius: 19px;
+    margin-bottom: 12px;
+    width: 50%;
+}
+
+
 @media only screen and (max-width: 1024px) {
-.btn.btn-info
+.b1, .b2, .b3, .b4
 {
     text-decoration: none;
-    background-color: #61c4ff;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;

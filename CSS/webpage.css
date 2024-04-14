@@ -31,7 +31,7 @@ body {
     
 .desc {
     background-color: #ffffff;
-    opacity: 20%;
+    opacity: 30%;
     width: 85%;
 }
 
@@ -82,11 +82,20 @@ p {
 
 /*For Videos Page*/
       .channel {
- font-family: 'Nunito';
- font-size: 2vw;
- font-weight: bold;
- color: #fff;
- background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Nunito';
+    font-size: 2.2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 15vw;
+    color: #b0178f;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #b0178f;
+    background: #f7b5e8;
  }
 }
 
@@ -121,12 +130,15 @@ p {
     text-decoration: none;
     display: inline-block;
     font-family: 'Nunito';
-    font-size: 4vw;
+    font-size: 2.2vw;
     margin: 4px 2px;
     cursor: pointer;
-    width: 10%;
-    background-color: #a504b5;
-    color: #ffffff;  
+    width: 15vw;
+    color: #b0178f;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #b0178f;
+    background: #f7b5e8;
 }
    
 br {

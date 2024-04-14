@@ -121,10 +121,10 @@ p {
     text-decoration: none;
     display: inline-block;
     font-family: 'Nunito';
-    font-size: 7vw;
+    font-size: 4vw;
     margin: 4px 2px;
     cursor: pointer;
-    width: 100%;
+    width: 5vw;
     background-color: #a504b5;
     color: #ffffff;  
 }

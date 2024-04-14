@@ -2,7 +2,7 @@
    ========= website style =========
    ================================= */
 body {
-    background-image: url("https://raw.githubusercontent.com/PGKNTech/PGKNTech.github.io/main/images/PGKNT-BG.png");
+    background-image: url("https://github.com/simpledefens/simpledefens.github.io/blob/213d438b0f9f6b5497458feda427bd827f6f8fc2/images/simpledefenss.png");
     max-width: 100%;
     padding: 0px;
     margin: 60px;
@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
   body {
-    background-image: url("https://raw.githubusercontent.com/PGKNTech/PGKNTech.github.io/main/images/PGKNT-BG.png");
+    background-image: url("https://github.com/simpledefens/simpledefens.github.io/blob/213d438b0f9f6b5497458feda427bd827f6f8fc2/images/simpledefenss.png");
     max-width: 100%;
     padding: 10vw;
     margin: 60px;
@@ -21,7 +21,7 @@ body {
     background-color: transparent;
     font-family: 'Quicksand';
     font-size: 10vw;
-    color: #3782e9;
+    color: #fff;
     text-align: center;
     text-shadow: 2px 0px #0392e7;
     margin: auto;
@@ -34,7 +34,7 @@ p {
 font-family: 'Nunito';
     font-size: 3.5vw;
     font-weight: bold;
-    color: #39a1e0;
+    color: #fff;
     background-color: #fff;
     border-radius: 16px;
     text-align: center;
@@ -47,7 +47,7 @@ font-family: 'Nunito';
     background-color: transparent;
     font-family: 'Quicksand';
     font-size: 19.5vw;
-    color: #3782e9;
+    color: #fff;
     text-align: center;
     text-shadow: 3px 1px #0392e7;
     margin: auto;
@@ -59,8 +59,7 @@ p {
  font-family: 'Nunito';
  font-size: 5.5vw;
  font-weight: bold;
- color: #39a1e0;
- background-color: #fff;
+ color: #fff;
  border-radius: 20px;
  text-align: center;
  margin: auto;
@@ -72,11 +71,12 @@ p {
     height: 102px;
     width: 102px;
     background-color: transparent;
+    border-radius: 20%;
     float: left;
     margin-top: 60px;
 }
     
-a [href="https://pgkntech.github.io"]{
+a [href="https://simpledefens.github.io"] {
 text-decoration: none;
 }
    
@@ -84,7 +84,7 @@ text-decoration: none;
 .subtitle {
          font-family: 'Nunito';
          font-size: 4vw;
-         color: #016ca8;
+         color: #eeeeee;
          width: 100%;
          border-radius: 10px;
          }
@@ -93,7 +93,7 @@ text-decoration: none;
 .subtitle {
          font-family: 'Nunito';
          font-size: 3.8vw;
-         color: #016ca8;
+         color: #eeeeee;
          width: 100%;
          border-radius: 10px;
 }
@@ -104,6 +104,7 @@ text-decoration: none;
     height: 120px;
     width: 120px;
     background-color: transparent;
+    border-radius: 20%;
     float: left;
     margin-top: -100px;
     margin-left: -80px;
@@ -117,10 +118,11 @@ text-decoration: none;
    ================================= */
 /* NavBar */
 .navbar {
-       background: #1276ff;
+       background: #fff;
        position: fixed;
        width: 100%;
        margin: -60px -60px;
+       opacity: 80%;
        }
 ul {
   list-style-type: none;
@@ -141,7 +143,7 @@ li a {
   font-family: 'Quicksand';
   font-size: 2.5vw;
   font-weight: bold;
-  color: #f5f4dc;
+  color: #b700c9;
   text-decoration: none;
   transition: text-decoration, text-decoration-color 1s;
    
@@ -149,14 +151,15 @@ li a {
 
 li:hover, .lenk a:hover {
    text-decoration: underline;
-   text-decoration-color: #016ca8;
+   text-decoration-color: #c90076;
    background: transparent;
 }
 
 @media only screen and (max-width: 1024px) {
    .navbar {
-       background: #1276ff;
+       background: #fff;
        position: fixed;
+       opacity: 80%;
        width: 100%;
        margin: -160px -160px;
        }
@@ -179,7 +182,7 @@ li a .lenk {
   font-family: 'Quicksand';
   font-size: 3.5vw;
   font-weight: bold;
-  color: #f5f4dc;
+  color: #b700c9;
   text-decoration: none;
   text-align: center;
   transition: text-decoration, text-decoration-color 1s;
@@ -187,7 +190,7 @@ li a .lenk {
    
  li:hover, .lenk a:hover {
    text-decoration: underline;
-   text-decoration-color: #016ca8;
+   text-decoration-color: #c90076;
    background: transparent;
 }  
 }
@@ -206,14 +209,14 @@ li a .lenk {
     width: 15vw;
     color: #fff;
     border-width: 50px;
-    border: #016ca8;
     border-style: solid;
-    background: #0382e7;
+    border-color: #b0178f;
+    background: #f7b5e8;
 }
 
 .button1 a:hover, .button2 a:hover, .button3 a:hover, .button4 a:hover {
     background-color: #ffffff;
-    color: #000000;
+    color: #b0178f;
     font-weight: bold;
     text-decoration: none;
  }
@@ -225,6 +228,7 @@ li a .lenk {
 
 .button1 {
     border-radius: 10px;
+    border-color: #b0178f;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -233,12 +237,13 @@ li a .lenk {
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
-    background-color: #0392E7;
+    background-color: #f7b5e8;
     color: #ffffff;  
 }
 
 .button2 {
     border-radius: 10px;
+    border-color: #b0178f;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -247,12 +252,13 @@ li a .lenk {
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
-    background-color: #016ca8;
+    background-color: #f7b5e8;
     color: #ffffff;
 }
 
 .button3 {
     border-radius: 10px;
+    border-color: #b0178f;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -261,12 +267,13 @@ li a .lenk {
     margin: 4px 2px;
     cursor: pointer;
     width: 100%;
-    background-color: #004F8D;
+    background-color: #f7b5e8;
     color: #ffffff;
 }
 
 .button4 {
    border-radius: 10px;
+   border-color: #b0178f;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -275,32 +282,15 @@ li a .lenk {
    margin: 4px 2px;
    cursor: pointer;
    width: 100%;
-   background-color: #0392E7;
+   background-color: #f7b5e8;
     color: #ffffff; 
 }
        
        
 .button1 a:hover, .button2 a:hover, .button3 a:hover, .button4 a:hover {
     background-color: #ffffff;
-    color: #000000;
+    color: #b0178f;
     font-weight: bold;
     text-decoration: none;
  }
-}
-   
-/*===(For screens larger than 300 pixels)==*/
-@media only screen and (min-width: 300px) {
-/* -Highlighting- */
-   
-    /* For Firefox */
-    ::-moz-selection { 
-  color: #016ca8;
-  background: #0392E7;
-}
-
-    /* selection styles (does not support IE8 below) */
-::selection {
-  color: #016ca8;
-  background: #0392E7;
-}
 }

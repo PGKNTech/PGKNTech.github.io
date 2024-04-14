@@ -186,7 +186,6 @@ br {
        width: 100%;
        padding: 1px;
        margin-top: -20px;
-       opacity: 90%;
        }
 ul {
   list-style-type: none;
@@ -223,7 +222,6 @@ li:hover, .lenk a:hover {
    .navbar {
        background: #fff;
        position: fixed;
-       opacity: 90%;
        width: 100%;
        }
 ul {

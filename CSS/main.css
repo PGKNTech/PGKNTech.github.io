@@ -19,7 +19,7 @@ body {
 
 .title, h1 {
     background-color: transparent;
-    font-family: 'Quicksand';
+    font-family: 'Bauhaus 93';
     font-size: 10vw;
     color: #fff;
     text-align: center;
@@ -45,7 +45,7 @@ font-family: 'Nunito';
 @media only screen and (max-width: 1024px) {
    .title, h1 {
     background-color: transparent;
-    font-family: 'Quicksand';
+    font-family: 'Bauhaus 93';
     font-size: 19.5vw;
     color: #fff;
     text-align: center;
@@ -66,7 +66,7 @@ p {
  width: 80%;
  }
 }   
-    /* PGKNT Official LOGO for large screens */
+    /* SimpleDefens Official LOGO for large screens */
       .logo, img {
     height: 102px;
     width: 102px;
@@ -98,7 +98,7 @@ text-decoration: none;
          border-radius: 10px;
 }
  
- /* PGKNT Official LOGO for mobile */
+ /* SimpleDefens Official LOGO for mobile */
 
 .logo, img {
     height: 120px;
@@ -140,7 +140,7 @@ li a {
   margin: 20px;
   padding: 1px;
   background: transparent;
-  font-family: 'Quicksand';
+  font-family: 'Bahnschrift';
   font-size: 2.5vw;
   font-weight: bold;
   color: #b700c9;
@@ -179,7 +179,7 @@ li a .lenk {
   margin: auto;
   padding: 12px;
   background: transparent;
-  font-family: 'Quicksand';
+  font-family: 'Bahnschrift';
   font-size: 3.5vw;
   font-weight: bold;
   color: #b700c9;

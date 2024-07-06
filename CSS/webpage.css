@@ -182,7 +182,7 @@ br {
    ======== site decorations =======
    ================================= */
 /* NavBar */
-.navbar {
+nav {
        background: #fff;
        position: fixed;
        width: 100%;
@@ -219,10 +219,11 @@ li:hover, .lenk a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
-   .navbar {
+   nav ul li {
        background: #fff;
        position: fixed;
        width: 100%;
+       opacity: 100%
        }
 ul {
   list-style-type: none;
@@ -235,7 +236,7 @@ li {
   float: right;
 }
 
-li a .lenk {
+li .lenk {
   display: block;
   margin: auto;
   padding: 12px;
@@ -245,6 +246,7 @@ li a .lenk {
   color: #b700c9;
   text-decoration: none;
   text-align: center;
+  opacity: 100%;
   transition: text-decoration, text-decoration-color 1s;
 }
    
